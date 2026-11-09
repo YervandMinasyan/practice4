@@ -6,10 +6,10 @@ int main() {
 	printf("mutqagrir tiv\n");
 	scanf("%d", &n);
 
-	int line = 1;
+	int line = n;
 	for(int i = 0; i < n; i++){
 		printf("%d. Hello, Git!\n", line);
-		line++;
+		line--;
 	}
 	return 0;
 }

@@ -8,7 +8,7 @@ int main() {
 
 	int line = 1;
 	for(int i = 0; i < n; i++){
-		printf("%d. Hello\n", line);
+		printf("%d. Hello, Git!\n", line);
 		line++;
 	}
 	return 0;
